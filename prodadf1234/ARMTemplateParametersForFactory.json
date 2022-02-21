@@ -1,0 +1,21 @@
+{
+	"$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+	"contentVersion": "1.0.0.0",
+	"parameters": {
+		"factoryName": {
+			"value": "prodadf1234"
+		},
+		"AzureKeyVault1_properties_typeProperties_baseUrl": {
+			"value": "https://adfkv91.vault.azure.net/"
+		},
+		"ls_kv_properties_typeProperties_baseUrl": {
+			"value": "https://adfkv91.vault.azure.net/"
+		},
+		"ls_storage_properties_typeProperties_connectionString_secretName": {
+			"value": "storagesecrete"
+		},
+		"ls_storage1_properties_typeProperties_connectionString_secretName": {
+			"value": "storagesecrete"
+		}
+	}
+}
