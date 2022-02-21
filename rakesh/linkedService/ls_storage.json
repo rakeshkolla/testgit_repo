@@ -1,0 +1,18 @@
+{
+	"name": "ls_storage",
+	"properties": {
+		"annotations": [],
+		"type": "AzureBlobStorage",
+		"typeProperties": {
+			"connectionString": {
+				"type": "AzureKeyVaultSecret",
+				"store": {
+					"referenceName": "ls_kv",
+					"type": "LinkedServiceReference"
+				},
+				"secretName": "storagesecrete",
+				"secretVersion": "12a8767a760040278e61e9aa0c8eee4a"
+			}
+		}
+	}
+}
